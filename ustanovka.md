@@ -4,13 +4,13 @@
 
 Если вы хотите установить Git под Linux как бинарный пакет, это можно сделать, используя обычный менеджер пакетов вашего дистрибутива. Если у вас Fedora (или другой похожий дистрибутив, такой как RHEL или CentOS), можно воспользоваться `dnf`:
 
-```console
+```
 $ sudo dnf install git-all
 ```
 
 Если же у вас дистрибутив, основанный на Debian, например, Ubuntu, попробуйте `apt`:
 
-```console
+```
 $ sudo apt install git
 ```
 
@@ -18,6 +18,6 @@ $ sudo apt install git
 
 ### Установка в Windows
 
-Установите оболочку [Git Bash](https://gitforwindows.org/) (проект ***Git for Windows***). 
+Установите оболочку [Git Bash](https://gitforwindows.org) (проект _**Git for Windows**_).
 
-![GitBash](.\resurce\img-09-gitbash.png)
+![GitBash](.gitbook/assets/img-09-gitbash.png)
