@@ -1,2 +1,6 @@
-# KnowledgeBaseGitHub
-База знаний GitHub
+---
+description: Knowledge Base
+---
+
+# GitHub
+
