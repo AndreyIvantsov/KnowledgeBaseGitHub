@@ -22,7 +22,7 @@ $ git clone https://github.com/AndreyIvantsov/LearnGit
 $ git clone git@github.com:AndreyIvantsov/LearnGit.git
 ```
 
-![Ссылка на репозиторий](resurce/img-01.png)
+![Ссылка на репозиторий](.gitbook/assets/img-01.png)
 
 ### Инициализация Git для проекта
 

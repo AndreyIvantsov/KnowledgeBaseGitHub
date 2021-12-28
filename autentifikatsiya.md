@@ -2,72 +2,74 @@
 
 ### Настройка SSH-Key (Linux)
 
-Необходимо сгенерировать ***ssh*** ключи: ***private*** и ***pubic***. 
+Необходимо сгенерировать _**ssh**_ ключи: _**private**_ и _**pubic**_.
 
 Ключи будут размещены в домашней папке `~/.ssh`.
 
 Выполним команду (на все запросы нажимаем Enter):
 
-```console
+```
 $ ssh-keygen
 ```
 
 Проверим, что ключи созданы
 
-```console
+```
 console$ ll ~/.ssh/
 ```
 
 Выведем в консоль содержимое публичного ключа
 
-```console
+```
 $ cat ~/.ssh/id_rsa.pub
 ```
 
-Скопируем все содержимое файла из консоли в буфер обмена и перейдем на сайт ***github.com*** в раздел настроек.
+Скопируем все содержимое файла из консоли в буфер обмена и перейдем на сайт _**github.com**_ в раздел настроек.
 
-![Настройки](.\resurce\img-04.png)
+![Настройки](.gitbook/assets/img-04.png)
 
-![SSH-KEY](.\resurce\img-05.png)
+![SSH-KEY](.gitbook/assets/img-05.png)
 
-Создадим новый ***ssh-key*** скопировав в него содержимое публичного ключа из буфера обмена.
+Создадим новый _**ssh-key**_ скопировав в него содержимое публичного ключа из буфера обмена.
 
 ### Настройка SSH-Key (Windows)
 
-Установить оболочку [Git Bash](https://gitforwindows.org/). 
+Установить оболочку [Git Bash](https://gitforwindows.org).
 
 Выполнить действия аналогичные при настройке по Linux.
 
 Место хранения ключей:
 
-```console
+```
 C:\Users\<имя пользователя>\.ssh\id_rsa.pub
 ```
 
-![SHH-KEY](.\resurce\img-08-shh-key.png)
+![SHH-KEY](.gitbook/assets/img-08-shh-key.png)
 
 ### Перевод аутентификации с https на ssh-key
 
 Посмотрим с какой ссылкой соединен наш локальный репозиторий:
 
-```console
+```
 $ git remote -v
 ```
-```console
+
+```
 learngit https://github.com/AndreyIvantsov/LearnGit.git (fetch)
 learngit https://github.com/AndreyIvantsov/LearnGit.git (push)
 ```
-Поменяем соединение на ***ssh***
 
-```console
+Поменяем соединение на _**ssh**_
+
+```
 $ git remote set-url learngit git@github.com:AndreyIvantsov/LearnGit.git
 ```
 
-![SHH](.\resurce\img-06-shh.png)
+![SHH](.gitbook/assets/img-06-shh.png)
 
 ### Проверим соединение
 
-```console
+```
 $ git remote -v
 ```
 
@@ -75,34 +77,35 @@ $ git remote -v
 learngit git@github.com:AndreyIvantsov/LearnGit.git (fetch)
 learngit git@github.com:AndreyIvantsov/LearnGit.git (push)
 ```
-
 
 ### Перевод аутентификации с ssh-key на https
 
 Посмотрим с какой ссылкой соединен наш локальный репозиторий:
 
-```console
+```
 $ git remote -v
 ```
-``` 
+
+```
 learngit git@github.com:AndreyIvantsov/LearnGit.git (fetch)
 learngit git@github.com:AndreyIvantsov/LearnGit.git (push)
 ```
-Поменяем соединение на ***https***
 
-```console
+Поменяем соединение на _**https**_
+
+```
 $ git remote set-url learngit https://github.com/AndreyIvantsov/LearnGit.git
 ```
 
-![HTTPS](.\resurce\img-07-https.png)
+![HTTPS](.gitbook/assets/img-07-https.png)
 
 ### Проверим соединение
 
-```console
+```
 $ git remote -v
 ```
+
 ```
 learngit https://github.com/AndreyIvantsov/LearnGit.git (fetch)
 learngit https://github.com/AndreyIvantsov/LearnGit.git (push)
 ```
-
