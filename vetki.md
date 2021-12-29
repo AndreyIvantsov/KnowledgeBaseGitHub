@@ -2,7 +2,8 @@
 
 ### Добавление новой ветки 
 
-<img src=".gitbook\assets\img-03-vetki.png" alt="Ветки" style="zoom:50%;" />
+![Ветки](.gitbook\assets\img-03-vetki.png)
+
 
 Добавляем новую ветку **dev**
 
