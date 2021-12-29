@@ -2,7 +2,7 @@
 
 ### Добавление новой ветки 
 
-![Ветки](.gitbook\assets\img-03-vetki.png)
+![Ветки](.gitbook/assets/img-03-vetki.png)
 
 
 Добавляем новую ветку **dev**
