@@ -2,7 +2,7 @@
 
 ### Добавление новой ветки 
 
-<img src=".\resurce\img-03-vetki.png" alt="Ветки" style="zoom:50%;" />
+<img src=".gitbook\assets\img-03-vetki.png" alt="Ветки" style="zoom:50%;" />
 
 Добавляем новую ветку **dev**
 

@@ -14,10 +14,10 @@ $ sudo dnf install git-all
 $ sudo apt install git
 ```
 
-Чтобы воспользоваться дополнительными возможностями, посмотрите инструкцию по установке для нескольких различных разновидностей Unix на сайте Git https://git-scm.com/download/linux.
+Чтобы воспользоваться дополнительными возможностями, посмотрите инструкцию по установке для нескольких различных разновидностей Unix на сайте Git [https://git-scm.com/download/linux](https://git-scm.com/download/linux).
 
 ### Установка в Windows
 
 Установите оболочку [Git Bash](https://gitforwindows.org) (проект _**Git for Windows**_).
 
-![GitBash](.gitbook/assets/img-09-gitbash.png)
+![GitBash](.gitbook\assets\img-09-gitbash.png)
