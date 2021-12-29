@@ -34,9 +34,7 @@
 
 Место хранения ключей:
 
-```
-C:\Users\<имя пользователя>\.ssh\id_rsa.pub
-```
+`C:\Users\<имя пользователя>\.ssh\id_rsa.pub`
 
 ![SHH-KEY](.gitbook/assets/img-08-shh-key.png)
 
@@ -44,62 +42,46 @@ C:\Users\<имя пользователя>\.ssh\id_rsa.pub
 
 Посмотрим с какой ссылкой соединен наш локальный репозиторий:
 
-```
-$ git remote -v
-```
+`$ git remote -v`
 
-```
-learngit https://github.com/AndreyIvantsov/LearnGit.git (fetch)
-learngit https://github.com/AndreyIvantsov/LearnGit.git (push)
-```
+`learngit https://github.com/AndreyIvantsov/LearnGit.git (fetch)`
+
+`learngit https://github.com/AndreyIvantsov/LearnGit.git (push)`
 
 Поменяем соединение на _**ssh**_
 
-```
-$ git remote set-url learngit git@github.com:AndreyIvantsov/LearnGit.git
-```
+`$ git remote set-url learngit git@github.com:AndreyIvantsov/LearnGit.git`
 
 ![SHH](.gitbook/assets/img-06-shh.png)
 
 ### Проверим соединение
 
-```
-$ git remote -v
-```
+`$ git remote -v`
 
-```
-learngit git@github.com:AndreyIvantsov/LearnGit.git (fetch)
-learngit git@github.com:AndreyIvantsov/LearnGit.git (push)
-```
+`learngit git@github.com:AndreyIvantsov/LearnGit.git (fetch)`
+
+`learngit git@github.com:AndreyIvantsov/LearnGit.git (push)`
 
 ### Перевод аутентификации с ssh-key на https
 
 Посмотрим с какой ссылкой соединен наш локальный репозиторий:
 
-```
-$ git remote -v
-```
+`$ git remote -v`
 
-```
-learngit git@github.com:AndreyIvantsov/LearnGit.git (fetch)
-learngit git@github.com:AndreyIvantsov/LearnGit.git (push)
-```
+`learngit git@github.com:AndreyIvantsov/LearnGit.git (fetch)`
+
+`learngit git@github.com:AndreyIvantsov/LearnGit.git (push)`
 
 Поменяем соединение на _**https**_
 
-```
-$ git remote set-url learngit https://github.com/AndreyIvantsov/LearnGit.git
-```
+`$ git remote set-url learngit https://github.com/AndreyIvantsov/LearnGit.git`
 
 ![HTTPS](.gitbook/assets/img-07-https.png)
 
 ### Проверим соединение
 
-```
-$ git remote -v
-```
+`$ git remote -v`
 
-```
-learngit https://github.com/AndreyIvantsov/LearnGit.git (fetch)
-learngit https://github.com/AndreyIvantsov/LearnGit.git (push)
-```
+`learngit https://github.com/AndreyIvantsov/LearnGit.git (fetch)`
+
+`learngit https://github.com/AndreyIvantsov/LearnGit.git (push)`
