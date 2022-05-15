@@ -6,6 +6,22 @@
 
 ![Создание удаленного репозитория](.gitbook/assets/img-02.png)
 
+### Создание репозитория на диске и отправка изменений в уже созданный, но пустой удаленный репозиторий
+
+`echo "# DiskAnalizer" >> README.md`
+
+`git init`
+
+`git add README.md`
+
+`git commit -m "first commit"`
+
+`git branch -M main`
+
+`git remote add origin git@github.com:AndreyIvantsov/DiskAnalizer.git`
+
+`git push -u origin main`
+
 ### Клонирование существующего репозитория (clone)
 
 Перейти в папку где планируется создать папку с будущим проектом
@@ -34,7 +50,7 @@
 
 `$ git remote`
 
-`$ git remote -v``
+\`$ git remote -v\`\`
 
 ### Добавление файлов проекта в Git
 
