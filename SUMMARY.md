@@ -6,4 +6,4 @@
 * [Ветки](vetki.md)
 * [Аутентификация](autentifikatsiya.md)
 * [Видео](video.md)
-
+* [Жизненный цикл файлов](zhiznennyi-cikl-failov.md)
